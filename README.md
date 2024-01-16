@@ -18,7 +18,7 @@ Next, the code checks for multicollinearity between the independent variables "S
 The code then performs outlier checking for the "Study Hours" and "Previous Exam Score" variables using box plots. It displays a box plot for each variable, showing the distribution of values and any potential outliers.
 
 #### WOE Transformation for Logistic Regression
-The code performs a Weight of Evidence (WOE) transformation for logistic regression. It creates categorical variables based on the "Study Hours" and "Previous Exam Score" variables using the cut() function from pandas. It then calculates the WOE values for each category and merges them with the original data. The resulting dataset includes the WOE-transformed variables [[14]].
+The code performs a Weight of Evidence (WOE) transformation for logistic regression. It creates categorical variables based on the "Study Hours" and "Previous Exam Score" variables using the cut() function from pandas. It then calculates the WOE values for each category and merges them with the original data. The resulting dataset includes the WOE-transformed variables.
 
 #### Data Splitting and Modeling
 The code splits the data into training and testing sets using the train_test_split() function from the sklearn library. It then builds several machine learning models, including logistic regression, decision tree, random forest, LightGBM, XGBoost, and CatBoost. Each model is trained on the training data and evaluated on the testing data using various performance metrics, including Gini score, accuracy score, and confusion matrix. The evaluate() function is used to calculate and display metrics.
