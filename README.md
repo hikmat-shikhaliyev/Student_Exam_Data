@@ -4,10 +4,10 @@ This repository contains code for analyzing student exam data and building machi
 #### Libraries
 The code begins by importing the necessary libraries, including:
 
-pandas: for data manipulation and analysis
-numpy: for numerical operations
-matplotlib: for data visualization
-seaborn: for advanced statistical visualization 
+##### pandas: for data manipulation and analysis
+##### numpy: for numerical operations
+##### matplotlib: for data visualization
+##### seaborn: for advanced statistical visualization 
 #### Data Loading and Preprocessing
 The code then loads the student exam data from a CSV file using the pandas library. It displays the loaded data, provides a summary of the data using the describe() function, checks for missing values using the isnull().sum() function, and displays the data types of each column using the dtypes attribute.
 
